@@ -1,0 +1,543 @@
+body{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  background:#FFF;
+}
+
+.controlbar{
+  display:flex;
+  align-items:center;
+  padding:20px;
+}
+
+#logo{
+  position:absolute;
+  left:5px;
+  top:-8px;
+  height:125px;
+  width:125px;
+}
+
+.controls
+{
+  text-align:right;
+  position: absolute;
+  right:20px
+}
+
+a{
+  color:#000;
+  text-decoration:none;
+}
+
+.controls ul{
+  display:inline-block;
+  list-style-type:none;
+}
+
+.controls ul li{
+  display:inline-block;
+  margin-right:30px;
+}
+
+a{
+  color:#000;
+  text-decoration:none;
+}
+
+p{
+  color:red;
+}
+
+.main,.b,.a{
+  background:radial-gradient(#fff,#ffd6d6);
+  width:100%;
+}
+
+.b{
+  height:110px;
+}
+
+.row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-1{
+  flex-basis:50%;
+  text-align:center;
+  min-width:330px;
+  margin-left:-40px
+}
+
+#iphone13proimg{
+  height:500px;
+  border-radius:40px;
+  margin-bottom:50px;
+  margin-left:850px;
+}
+
+#imgimg{
+  height:500px;
+  border-radius:10px;
+  margin-bottom:50px;
+  margin-left:-100px;
+}
+
+#motoEdge20Fusionimg{
+  border-radius:20px;
+  height:500px;
+  margin-bottom:50px;
+  margin-left:-100px;
+}
+
+
+#openiphone13{
+  background:transparent;
+  border-color:#000;
+  border-radius:30px;
+  height:40px;
+  width:150px;
+  margin-right:20px;
+  margin-top:20px;
+}
+
+#samsungslogo{
+  margin-left:175px;
+  border-radius:30px;
+}
+
+#iphoneslogo{
+  position:absolute;
+  top:750px;
+  margin-left:41%;
+  margin-right:50%;
+  height:200px;
+  width:200px;
+}
+
+#onepluslogo{
+  position:absolute;
+  top:750px;
+  margin-left:950px;
+  height:200px;
+  width:200px;
+  border-radius:30px;
+}
+
+#samsungslogo:hover,#iphoneslogo:hover,#onepluslogo:hover,#addtocartiphone13:hover,#openiphone13:hover,#redmagic7open:hover,#iqoo9seopen:hover,#blackshark3proopen:hover,#iphone12miniopen:hover,#redminote11open:hover,#samsungss22ultraopen:hover,#samsungss20feopen:hover,#terms1:hover,#samsungf41open:hover,#realmec35open:hover,#samsungnote10open:hover,#vivoy50open:hover,#motoEdge20Fusionopen:hover,#open:hover{
+  transform:scale(1.3);
+  z-index:2;
+}
+
+.redmagic7{
+  margin-left:170px;
+  border:solid #FFF 2px;
+  height:500px;
+  width:250px;
+  text-align:center;
+}
+
+#redmagic7open,#iqoo9seopen,#blackshark3proopen,#iphone12miniopen,#redminote11open,#samsungss22ultraopen,#samsungss20feopen,#samsungf41open,#realmec35open,#samsungnote10open,#vivoy50open{
+  background:transparent;
+  border-color:#000;
+  border-radius:30px;
+  height:40px;
+  width:150px;
+  margin-right:20px;
+  margin-bottom:20px;
+  color:#000;
+  }
+
+#iQOO9SEimg{
+  height:225px;
+}
+
+.iQOO9SE{
+  margin-top:0;
+  margin-left:41%;
+  border:solid #FFF 2px;
+  height:500px;
+  width:250px;
+  text-align:center;
+  position:absolute;
+  top:1090px;
+}
+
+label{
+  color:#000;
+}
+
+#blackshark3proimg{
+  height:225px;
+}
+
+.blackshark3pro{
+  position:absolute;
+  top:1090px;
+  margin-left:930px;
+  height:500px;
+  width:250px;
+  text-align:center;
+  border:solid #fff 2px;
+}
+
+#redmagic7img{
+  height:225px;
+}
+
+.bestmobiles{
+  border:solid white 2px;
+  width:100%;
+  background:#E2E2E2;
+  height:1200px;
+}
+
+#iphone12miniimg,#redminote11img,#samsungss22ultraimg,#samsungnote10img,#vivoy50img{
+  height:250px;
+  border-radius:30px;
+}
+
+#samsungf41img,#realmec35img{
+  height:250px;
+}
+
+#samsungss20feimg{
+  height:230px;
+  border-radius:30px;
+}
+
+.iphone12mini,.redminote11,.samsungss20fe,.samsungss22ultra,.samsungsf41,.realmec35,.samsungsnote10,.vivoy50{
+  text-align:center;
+  border:solid white 2px;
+  height:500px;
+  width:250px;
+  border-radius:30px;
+  margin-top:30px;
+  margin-left:30px;
+  background:#FFFFFF;
+  margin-bottom:30px;
+}
+
+.iphone12mini,.redminote11,.samsungss20fe,.samsungss22ultra{
+  margin-bottom:50px;
+}
+
+.iphone12mini{
+  position:absolute;
+  top:1635px;
+}
+
+.redminote11{
+  left:25%;
+  position:absolute;
+  top:1635px;
+}
+
+.samsungss20fe{
+  position:absolute;
+  top:1635px;
+  left:75%;
+}
+
+.samsungsf41{
+  position:absolute;
+  top:2250px;
+  margin-left:30px;
+}
+
+.realmec35{
+  position:absolute;
+  top:2250px;
+  left:25%;
+}
+
+.samsungsnote10{
+  position:absolute;
+  top:2250px;
+  left:50%;
+}
+
+.vivoy50{
+  position:absolute;
+  top:2250px;
+  left:75%;
+}
+
+.samsungss22ultra{
+  position:absolute;
+  top:1635px;
+  left:50%;
+}
+
+.payandrights{
+  background:#2D2D2D;
+  width:100%;
+  height:300px;
+  margin-top:45px;
+}
+
+.termsofcondcts{
+  width:100%;
+  height:50px;
+  background:#000;
+  position:absolute;
+  text-align:center;
+}
+
+.falcon{
+  text-align:center;
+  margin-top:30px;
+}
+
+#terms1{
+  height:20px;
+  width:200px;
+  border-radius:30px;
+  border-color:#000;
+  margin-top:20px;
+  background:#000000;
+  color:#fff;
+  font-size:15px;
+}
+
+#gototop{
+  height:50px;
+  width:100%;
+  border-color:black;
+  background-color:#000;
+  color:white;
+  font-size:25px;
+}
+
+#gototop:hover,#aboutweb:hover,#help1:hover{
+  transform:scale(1.3);
+  z-index:2;
+  border: none;
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+.payandrights{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.aboutthis{
+  text-align:center;
+}
+
+.helping{
+  text-align:center;
+}
+
+#help1,#aboutweb{
+  width:350px;
+  height:50px;
+  margin-top:20px;
+  border-radius:30px;
+  border-color:black;
+  background:#000;
+  color:white;
+}
+
+.payandrights{
+  color:white;
+}
+
+.bestdeals{
+  text-align:center;
+}
+
+#search{
+  margin-left:25%;
+  margin-top:30px;
+  text-align:center;
+  border-radius:30px;
+  height:50px;
+  width:600px;
+  border-color:black;
+  background:none;
+}
+
+#searchimg{
+  height:30px;
+}
+
+.weekoffers{
+  height:200px;
+  width:100%;
+  background:#fff;
+  text-align:center;
+}
+
+#img1{
+  margin-left:-1px;
+}
+
+#signin{
+  text-align:center;
+  align-items:center;
+}
+
+#email,#pass,#username,#chpass{
+  height:35px;
+  width:300px;
+  border-radius:30px;
+  text-align:center;
+  border-color:#000;
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:18px;
+}
+
+#submit1{
+  height:35px;
+  width:150px;
+  border-color:#000;
+  border-radius:30px;
+  margin-top:30px;
+  background-color:#fff;
+}
+
+li {
+ list-style-type: none;
+}
+
+h4 {
+ font-size:45px;
+ text-align:center;
+}
+
+#app{
+  color:#000;
+  text-decoration:none;
+  display:inline-block;
+}
+
+#open{
+  border:solid #000 2px;
+  border-radius:30px;
+  height:40px;
+  width:150px;
+  margin-right:20px;
+  margin-bottom:20px;
+  color:#000;
+  text-align:center;
+  background:none;
+  align-items:center;
+}
+
+#imging{
+  height:500px;
+  border-radius:40px;
+  margin-bottom:50px;
+  margin-left:-100px;
+}
+
+.row-1{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-3{
+  text-align:center;
+}
+
+.row-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-4{
+  text-align:center;
+}
+
+.offers2{
+  background:radial-gradient(#fff,#FFC100);
+
+}
+
+.best{
+  text-align:center;
+  margin-top:20px;
+}
+
+.signin{
+  max-width:300px;
+  text-align:center;
+  margin-left:35%;
+  margin-top:35px;
+}
+
+#submitemail{
+  width:150px;
+  height:35px;
+  margin-top:10px;
+  border-radius:30px;
+  background:#fff;
+}
+
+.bestdeal,.weeklydeals{
+  text-align:center;
+}
+
+.weeklydeals{
+  margin-bottom:50px;
+}
+
+  .about{
+    max-width:800px;
+    text-align:center;
+    margin-left:20%;
+  }
+
+  #problom{
+    height:35px;
+    width:300px;
+    text-align:center;
+    margin-top:5px;
+    border-radius:30px;
+  }
+
+  #problombtn{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    background:#fff;
+    margin-bottom:25px;
+  }
+
+  #problombt{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    background: #fff;
+  }
+
+  #searchimg{
+    height:450px;
+  }
+
+  .col-search{
+  flex-basis:50%;
+  text-align:center;
+  min-width:330px;
+  margin-left:-40px;
+  margin-top:120px;
+}
+
+#samsungm53div,#samsungs20fediv,#samsunga73div,#samsunga53div,#samsunga33div{
+  display:none;
+}

@@ -1,0 +1,21 @@
+#searchmob{
+  height:57px;
+  width:90%;
+  text-align:center;
+  font-size:25px;
+  border-radius:30px;
+  margin-top:30px;
+  margin-left:50px;
+  position:absolute;
+}
+
+#searchbtn{
+  height:56px;
+  width:200px;
+  border-radius:30px;
+  font-size:25px;
+  margin-top:30px;
+  position:absolute;
+  right:50px;
+  background:#fff;
+}
